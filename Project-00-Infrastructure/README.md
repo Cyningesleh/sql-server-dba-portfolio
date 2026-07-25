@@ -2,30 +2,40 @@
 
 ## Overview
 
-This project documents the design and implementation of the infrastructure supporting an enterprise Microsoft SQL Server environment.
+This project documents the design and deployment of the infrastructure supporting an enterprise Microsoft SQL Server lab environment.
+
+The environment was built using Microsoft Hyper-V, Windows Server 2019, Active Directory Domain Services (AD DS), and DNS. It provides the foundation for SQL Server administration, performance tuning, security, backup and recovery, high availability, and disaster recovery testing.
 
 ## Objectives
 
-- Deploy Hyper-V virtual machines
-- Configure Active Directory
-- Configure DNS
-- Join SQL Servers to the domain
-- Prepare infrastructure for SQL Server deployment
+- Build an enterprise Active Directory environment.
+- Deploy Windows Server virtual machines.
+- Configure networking and DNS.
+- Join SQL Server hosts to the domain.
+- Prepare the infrastructure for SQL Server 2022 deployment.
 
-## Environment
+## Technologies
 
-Hypervisor
+- Hyper-V
+- Windows Server 2019
+- Active Directory Domain Services
+- DNS
+- PowerShell
+- Windows Networking
 
-Windows Server
+## Virtual Machines
 
-Virtual Machines
+| Server | Role |
+----------------------
+| JITDC    | Domain Controller |
+| JITSQL01 | SQL Server Node 1 |
+| JITSQL02 | SQL Server Node 2 |
 
-Networking
+## Project Structure
 
-Active Directory
-
-DNS
-
-## Validation
-
-## Lessons Learned
+- Hyper-V Configuration
+- Active Directory
+- DNS
+- Networking
+- VM Inventory
+- Infrastructure Validation
