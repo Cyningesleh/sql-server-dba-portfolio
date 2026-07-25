@@ -2,13 +2,11 @@
 
 Welcome to my Microsoft SQL Server Database Administration portfolio.
 
-This repository documents the design, deployment, administration, and optimization of an enterprise-style SQL Server environment built using Hyper-V, Windows Server 2022, Active Directory, and SQL Server 2022 Developer Edition.
+This repository documents the design, deployment, administration, and optimization of an enterprise-style SQL Server environment built using Hyper-V, Windows Server 2019, Active Directory, and SQL Server 2019 Developer Edition.
 
 ## Technologies
 
-- Microsoft SQL Server 2022
 - Microsoft SQL Server 2019
-- Windows Server 2022
 - Windows Server 2019
 - Hyper-V
 - Active Directory Domain Services
