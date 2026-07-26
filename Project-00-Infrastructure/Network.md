@@ -92,6 +92,21 @@ All validation tests confirmed successful communication between the domain contr
 
 ---
 
+                    Hyper-V Host
+                          │
+                    Virtual Switch
+                          │
+        ┌─────────────────┼─────────────────┐
+        │                 │                 │
+        │                 │                 │
+   +------------+   +--------------+   +--------------+
+   |   JITDC    |   |  JITSQL01    |   |  JITSQL02    |
+   |------------|   |--------------|   |--------------|
+   | AD DS      |   | SQL Server   |   | SQL Server   |
+   | DNS        |   | Enterprise   |   | Enterprise   |
+   |192.168.0.2 |   |192.168.0.3   |   |192.168.0.4   |
+   +------------+   +--------------+   +--------------+
+
 ## Lessons Learned
 
 - Static IP addresses are recommended for infrastructure servers to ensure reliable communication.
